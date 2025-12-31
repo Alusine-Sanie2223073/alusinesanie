@@ -79,11 +79,6 @@ export function Footer() {
           <p>&copy; {currentYear} All rights reserved || SANIE</p>
         </div>
       </div>
-
-      src="src/assets/hero.jpg"
-                  alt="Sanie Profile"
-                  className="w-full h-full object-cover"
-                />
     </footer>
   );
 }
