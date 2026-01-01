@@ -10,7 +10,7 @@ export function Hero() {
                 <img
                   src="/assets/sanie.png"
                   alt="Sanie"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-fill"
                 />
               </div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full opacity-50 blur-xl"></div>
