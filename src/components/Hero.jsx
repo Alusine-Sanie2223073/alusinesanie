@@ -8,7 +8,7 @@ export function Hero() {
             <div className="relative">
               <div className="w-80 h-80 rounded-full overflow-hidden border-8 border-white shadow-2xl">
                 <img
-                  src="src/assets/hero.jpg"
+                  src="src/assets/sanie.png"
                   alt="Sanie"
                   className="w-full h-full object-cover"
                 />
