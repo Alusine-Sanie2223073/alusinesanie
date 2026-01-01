@@ -1,4 +1,3 @@
-import sanie from '/assets/sanie.png'
 export function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center px-6 pt-20">
@@ -9,7 +8,7 @@ export function Hero() {
             <div className="relative">
               <div className="w-80 h-80 rounded-full overflow-hidden border-8 border-white shadow-2xl">
                 <img
-                  src={sanie}
+                  src="/assets/sanie.png"
                   alt="Sanie"
                   className="w-full h-full object-cover"
                 />
