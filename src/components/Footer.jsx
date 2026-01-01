@@ -1,5 +1,4 @@
 export function Footer() {
-  const currentYear = new Date().getFullYear();
 
   return (
     <footer className="bg-gray-900 text-white py-12 px-6">
@@ -51,24 +50,24 @@ export function Footer() {
             <div className="flex gap-4 mt-6">
               <a 
                 href="#" 
-                className="w-60 h-10 bg-gray-800 hover:bg-blue-600 rounded-full flex items-center justify-center transition-colors"
+                className="w-20 h-10 bg-gray-800 hover:bg-blue-600 rounded-full flex items-center justify-center transition-colors"
                 aria-label="LinkedIn"
               >
-                <span className="text-xl">LinkedIn</span>
+                <span className="text-15">LinkedIn</span>
               </a>
               <a 
                 href="#" 
-                className="w-60 h-10 bg-gray-800 hover:bg-purple-600 rounded-full flex items-center justify-center transition-colors"
+                className="w-20 h-10 bg-gray-800 hover:bg-purple-600 rounded-full flex items-center justify-center transition-colors"
                 aria-label="Facebook"
               >
-                <span className="text-xl">Facebook</span>
+                <span className="text-15">Facebook</span>
               </a>
               <a 
                 href="#" 
-                className="w-60 h-10 bg-gray-800 hover:bg-pink-600 rounded-full flex items-center justify-center transition-colors"
+                className="w-20 h-10 bg-gray-800 hover:bg-pink-600 rounded-full flex items-center justify-center transition-colors"
                 aria-label="WhatSapp"
               >
-                <span className="text-xl">WhatSapp</span>
+                <span className="text-15">WhatSapp</span>
               </a>
             </div>
           </div>
@@ -76,7 +75,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-          <p>&copy; {currentYear} All rights reserved || SANIE</p>
+          <p>&copy; 2025 All rights reserved || SANIE</p>
         </div>
       </div>
     </footer>
