@@ -1,4 +1,4 @@
-import {hero} from './assets/hero.jpg';
+import hero from './assets/hero.jpg';
 export function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center px-6 pt-20">
